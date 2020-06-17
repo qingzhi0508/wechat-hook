@@ -23,16 +23,16 @@ class WeChatRobot
 
     /**
      * WeChatRobot constructor.
-     * @param string $atAll $mobiles
-     * @param array $atAll $mobiles
-     * @param bool $atAll
+     * @param $token
+     * @param array $mobile
+     * @param bool $all
      */
     public function __construct($token, $mobile = [], $all = false)
     {
         $this->config = array(
             'token'   => $token,
-            'timeout' => env('ROBOT_TIMEOUT',2),
-            'verify'  => env('ROBOT_VERIFY',false)
+            'timeout' => 20,
+            'verify'  => false
         );
         $this->atSet($all, $mobile);
         $this->init();

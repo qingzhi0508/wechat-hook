@@ -61,7 +61,7 @@ class HttpClient
     public function send($params)
     {
         $request = $this->client->post($this->getRobotUrl(), [
-            'body'    => json_encode($params),
+            'body'    => json_encode($params,JSON_UNESCAPED_UNICODE),
             'headers' => [
                 'Content-Type' => 'application/json',
             ],
