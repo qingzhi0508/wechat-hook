@@ -1,12 +1,12 @@
 {
-    "name": "shawn805/wechat-robot",
+    "name": "qingzhi0508/wechat-robot",
     "description": "qiye-wechat notify",
-    "keywords": ["laravel","lumen","wechat","wechat-robot"],
+    "keywords": ["yii","wechat","wechat-robot"],
     "license": "MIT",
     "authors": [
         {
-            "name": "shawn",
-            "email": "shawn805@gmail.com"
+            "name": "qingzhi",
+            "email": "qingzhi0508@gmail.com"
         }
     ],
     "require": {
