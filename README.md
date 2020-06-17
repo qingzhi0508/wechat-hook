@@ -4,7 +4,7 @@
 ## 安装
 
 ```shell
-$ composer require shawn805/wechat-robot
+composer require qingzhi0508/wechat-robot
 ```
 
 ## 使用方法
